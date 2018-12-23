@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="13.3dp">
+    <TextView
+        android:id= "@+id/txt_rv_item_theme_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="# 거실에 걸어두면 이쁠 것 같아!"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#000000" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginLeft="8dp">
+        <TextView
+            android:id="@+id/txt_rv_item_theme_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="허전했던 벽에 한 번 걸어보자"
+            android:textColor="#b0b3ba"/>
+        <TextView
+            android:id="@+id/txt_rv_item_theme_plus"
+            android:layout_marginRight="15.3dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:clickable="true"
+            android:text="+ 더보기"
+            android:textColor="#43484b"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="6dp">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="6dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_rv_item_theme_0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@color/colorPrimaryDark" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="6dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_rv_item_theme_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="6dp">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="6dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_rv_item_theme_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:scaleType="fitCenter" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="6dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_rv_item_theme_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:scaleType="fitCenter"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

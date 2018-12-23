@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.DetailedThemeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginLeft="13.3dp"
+            android:id= "@+id/txt_rv_item_theme_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="# 거실에 걸어두면 이쁠 것 같아!"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_marginLeft="21.3dp"
+            android:id="@+id/txt_rv_item_theme_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="허전했던 벽에 한 번 걸어보자"
+            android:textColor="#b0b3ba"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginLeft="19.3dp"
+            android:layout_marginRight="12dp"
+            android:id="@+id/rv_fragment_detailed_theme_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</ScrollView>
